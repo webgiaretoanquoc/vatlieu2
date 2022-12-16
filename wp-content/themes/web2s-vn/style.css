@@ -1,0 +1,837 @@
+/*
+Theme Name: Web2s.vn
+Description: W2s Team developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.9
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+@import url('../../../css2');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif !important;
+}
+.w2steam a { color: #fff000;}
+.w2steam {padding-left: 5px;margin-left: 5px;border-left: 1px solid;}
+a.button.primary.lowercase.reveal-icon.buttom-bg {
+	background: #ff0;
+	color: black;
+}
+i.icon-menu {
+	color: #CF0000;
+}
+.header-main {
+	background: #fff;
+
+}#toc_container.toc_white {
+	background: #fff8f5;
+}#toc_container {
+	border: 1px solid #ffdfd5;}
+.single-product .product-footer .product-tabs li.active a:before{display:none}
+.is-divider{display:none}
+.thu-ngo-section .large-12 .col-inner {
+	background: white;
+	padding: 35px;
+	margin-top: -170px;
+	border-bottom: 13px solid transparent;
+}
+.thong-tin-du-an{    margin-bottom: 20px;
+	background: #fff;
+	padding: 15px;}
+.thong-tin-du-an .row-info{height: 30px;
+	border-bottom: 1px solid #f1f1f1;}
+.thong-tin-du-an .row-info{display:inline-block; width:100%; clear:both}.bai-viet-lien-quan {
+	margin-top: 20px;
+}
+.bai-viet-lien-quan h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	color: #352F2A;
+}
+.bai-viet-lien-quan ul {
+	margin-bottom: 0;
+	display: inline-block;
+	width: 100%;
+}.bai-viet-lien-quan ul li {
+	list-style: none;
+	width: 33.33%;
+	float: left;
+	padding-left: 4px;
+	padding-right: 5px;
+}
+.loi-keu-goi .icon-box-center .icon-box-img {
+	margin: 0 auto;
+}
+.loi-keu-goi .medium-8 p{margin-bottom:0}
+.bai-viet-lien-quan ul li .box-image img {
+	height: 180px;
+	border-radius: 6px;
+	object-fit: cover;
+	object-position: center;
+}.bai-viet-lien-quan ul li h3 {
+	height: 45px;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight:500;
+	color: #000;
+	margin-top: 7px;
+	line-height: 24px;
+}
+.the-tim-kiem a:hover{background:#d60000; color:white}
+.the-tim-kiem a{    background: #f2f2f2;
+	padding: 2px 10px;
+	margin-bottom: 7px;
+	color: #585858;}
+.blog-single footer.entry-meta{
+	font-size: 15px;
+	background: #ffffff33;
+	border: none;
+	padding-left: 10px;
+}.bai-viet-lien-quan ul li h3:hover {
+	color: #d60000;
+}.product_meta>span {
+	display: block;
+	border-top: 0;
+	padding: 0;
+	font-size: 15px;
+}.thong-bao {
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #cf0000;
+}
+.thong-bao ul{margin-bottom:0}
+.product-short-description ul {margin-bottom:0}
+.product-short-description ul li{margin-bottom:0}
+.product-short-description{margin-bottom:15px; margin-top: -14px;border: 1px solid #e2e2e2;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 15px;}
+span.thong-tin-ngan{    color: #d60000;font-weight: 500;
+	font-size: 18px;
+	background: white;
+	padding: 0 9px;
+	margin-left: 10px;}
+.archive .product-small .box-image{    border: 1px solid #e6e6e6;
+}
+.archive .product-small .product-title a{ 
+	font-size: 17px;
+	font-weight: 500;
+	color: #000000 !important;
+}
+.archive .product-small .product-title a:hover {
+	color: #cf0000 !important;
+}
+.thong-tin-tac-gia {
+	background: #F4F4F4;
+	padding: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	clear: both;
+}.thong-tin-tac-gia .left {
+	width: 20%;
+	float: left;
+	display: inline-block;
+}
+.products .product-small .col-inner {
+	background: #fff;
+	padding: 10px;
+}
+.products .product-small .col-inner .box-text .price-wrapper span.price {
+	font-size: 18px;
+	font-weight: 600;
+	color: #e90000;
+}
+.thong-tin-tac-gia .right {
+	padding-left: 10px;
+	width: 80%;
+	float: right;
+	display: inline-block;
+	text-align: left;
+}.thong-tin-tac-gia h4 {
+	color: #352F2A;
+	text-transform: uppercase;
+	font-size: 19px;
+	margin-bottom: 4px;
+}.thong-tin-tac-gia .right p {
+	color: #212121;
+	margin-bottom: 0;
+	font-size: 15px;
+}
+div#secondary {
+	background: #F4F4F4;
+}
+div#secondary aside#flatsome_recent_posts-2 ul {
+	padding: 0px 10px;
+}
+.thong-tin-du-an .row-info .right.chi-phi{font-weight:500}
+.thong-tin-du-an .row-info .right{color: #d60000;width:77%; display:inline-block; float:left}
+.thong-tin-du-an .row-info .left{font-weight:500; width:23%; display:inline-block; float:left}
+.blog-single .thong-tin-mo-ta{font-weight: 600;
+	font-size: 16px;
+	padding: 10px; margin-bottom:20px}
+.blog-archive .archive-page-header .large-12{padding-bottom:15px}.entry-content {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.blog-single .entry-header .entry-meta{text-transform: none;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: gray;}
+.blog-archive .taxonomy-description{text-align:left; font-size:15px}
+.blog-archive .page-title{
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	color: #CF0000;
+}
+.post-item .col-inner .box-text .post-title:hover {
+	color: #cf0000;
+}
+.blog-archive .dia-chi-du-an{height: 23px;
+	overflow: hidden;
+	color: #ce0000;
+	font-size: 14px;}
+.archive .post-item a:hover{color:black}
+.archive .large-9 .badge{display:none}
+.footer-secondary {
+	padding: 0;
+}.widget .is-divider{display:none}
+span.widget-title{
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 20px;
+	font-weight: normal;
+	color: #ffffff;
+	background: #CF0000;
+	padding: 5px 3px;
+	text-align: center;
+}
+.widget .badge .badge-inner{border-radius:99%}
+.recent-blog-posts a{font-size:15px}
+.page-right-sidebar .page-inner ul{margin-left:20px}
+.footer-section .col{padding-bottom:0}
+#breadcrumbs{    margin-bottom: 10px;
+	font-size: 15px;}
+.page-right-sidebar .large-9,.blog-single .large-9, .blog-archive .large-9{border-right:none !important}
+.page-right-sidebar .large-3,.blog-single .large-3, .blog-archive .large-3{padding-left:0; border-left:none !important}
+.footer-section{    background: #352F2A;}
+.footer-section ul li{list-style:square; color:gray}
+
+.list-du-an .post-item .post-title:hover{color:#d00000}
+.list-du-an .post-item .box-text .dia-chi-du-an{height:32px; overflow:hidden; background: #000000a3;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: white;}
+.list-du-an .post-item .box-text{padding: 0;
+	margin-top: -32px;}
+.list-du-an .post-item .post-title{font-size: 18px;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 20px;}
+.box-blog-post .is-divider{display:none}
+.wpcf7 input[type='submit'] {background: #ca0000 !important;
+	margin: 0!important;font-weight: 400;
+	border-radius: 38px;
+	text-transform: none;
+} form{margin-bottom:0}
+.nav-dropdown li a{ font-weight:500;   font-size: 15px !important;color:#333333; margin:0 !important; padding:7px 10px !important}
+.flickity-page-dots .dot {
+	width: 7px;
+	height: 7px;}
+.nav-dropdown li a:hover{background:none !important; color:#d60000}
+.nav-dropdown li a{border:none !important}
+.nav-dropdown{min-width:330px; border:none; padding: 10px;}
+.san-pham-section .large-12{padding-bottom:0}
+.list-sp .flickity-prev-next-button svg {
+	position: absolute;
+	border-radius: 99%;
+	background: white;
+	box-shadow: 2px 2px 10px #00000029;
+	left: 50%;
+	color: #bb0000;}
+.sp-section2{padding-bottom:10px !important}
+.section-title-center span:after {
+	content: "";
+	display: table;
+	clear: both;
+	background: url(../../uploads/2019/08/line-1.png);
+	width: 100%;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+	padding-top: 0;
+}
+#header-contact .icon-map-pin-fill:before, #header-contact .icon-envelop:before, #header-contact .icon-clock:before  {
+	color: #fff000;
+}
+#header-contact li a span{
+	font-size: 13px;
+	text-transform: none;
+	color: #fff;
+	letter-spacing: 0;
+}
+#wrapper, #main {
+	background-color: #f9f9f9 !important;
+}
+.header-bottom-nav li{margin:0}
+.header-bottom-nav li a{
+	padding: 12px 15px;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 600 !important;
+}
+.header-bottom-nav li a:hover{background:#d60000}
+.block-header1 ul li{border-top:none !important; list-style:none; float:left; display:inline-block; margin-right:10px}
+.block-header1 ul li a{font-size:13px; color:#000;}
+.block-header1 ul li a:hover{color:#d60000}
+.block-header1 .col{padding-bottom:0}
+.block-header1 .searchform-wrapper {
+	margin-top: 11px;
+}
+.block-header1 .icon-box p{font-size: 14px;
+	color: #333333;}
+.block-header1 .icon-box h3{    font-size: 26px;
+	color:#cb0000;
+	margin-top: -6px;}
+.block-header1 .icon-box .icon-box-text{padding-left:7px}
+.block-header1 .icon-box{    
+	padding-top: 16px;
+	border: 1px dashed #CF0000;
+	padding: 10px;
+	border-radius: 7px;
+	background: #ffffff30;
+	padding-bottom: 2px;
+	margin-top: 6px;
+}
+.block-header1 input[type='search']{height: 43px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: none;}
+.block-header1 .searchform .button.icon {
+	margin: 0;
+	width: 60px;
+	height: 43px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.thu-ngo-section .large-8 .col-inner p{margin-bottom:10px; font-size:16px}
+.thu-ngo-section .large-4 .row2 .icon-box{    border: 1px solid #dadada;
+	border-radius: 10px;
+	padding: 6px;}
+.tieu-de{color:#874d29}
+.thu-ngo-section .large-4 .row2 .icon-box-center .icon-box-img {
+	margin: 0 auto;
+}
+.thu-ngo-section .large-4 .row2 .icon-box:hover{border:1px solid #874d29; background:white}
+.loi-keu-goi .col{padding-bottom:0}.section-title-normal {
+	border-bottom: 2px solid #4a2d16;
+}.section-title a {
+	display: block;
+	padding-left: 15px;
+	font-size: 15px;
+	margin-left: auto;
+	font-weight: normal;
+	color: #b1560f;
+}.section-title-container {
+	margin-bottom: 15px;
+}
+.hdevvn_cats a{text-transform:none}
+.list-sp .product-small .box-image .image-cover{    border: 1px solid #dcddd8;}
+.list-sp .col{padding-bottom:0}
+.hdevvn-show-cats{padding-bottom:0 !important; margin-bottom:0 !important; border-bottom:none !important}
+.hdevvn-show-cats li{display:inline-block; list-style:none; margin-bottom:0}
+
+.loi-keu-goi h3{margin-bottom:5px; font-weight:normal;}
+.loi-keu-goi .button{margin-bottom:0}.section-title b {
+	background-color: transparent;}.section-title-container {
+		margin-bottom: 0;
+}.section-title-normal span {
+	margin-right: 15px;
+	padding-bottom: 0;
+	border-bottom: 0;
+	margin-bottom: 0;
+	color: #d00000;
+	font-size: 23px;
+}.section-title-normal {
+	border-bottom: none;
+	margin-bottom: 15px;
+}
+.du-an-section{padding-bottom:20px !important}
+.cam-ket-section .col{padding-bottom:4px}
+.cam-ket-section{padding-bottom:30px !important}.ux-logo .ux-logo-link {
+	background: white;
+	margin-bottom: 4px;
+}.khach-hang-section{padding-bottom:20px !important}.product-footer .woocommerce-tabs>.nav-line:not(.nav-vertical){border-bottom: 1px solid #cecece;margin-top:0}.product-footer .woocommerce-tabs {
+	border-top: 0;
+}
+.form-dien-thoai .wpcf7 input[type='submit']{border-radius:0; border-top-right-radius:5px; border-bottom-right-radius:5px; padding: 0 10px}
+.form-dien-thoai input[type='tel']{margin-bottom:0; border-top-right-radius:0; border-bottom-right-radius:0}
+.cam-ket-section .icon-box .icon-box-text p{font-size:15px; color:#afafaf}.form-dien-thoai {
+	margin-top: 12px;
+	background: #CF0000;
+	padding: 15px;
+	border-radius: 5px;
+} .form-dien-thoai form {
+	margin-bottom: 0;
+}.form-dien-thoai .form-sdt {
+	display: inline-block;
+	width: 100%;
+} .form-dien-thoai .form-sdt .left {
+	float: left;
+	width: 85%;
+	display: inline-block;
+}.form-dien-thoai .form-sdt .right {
+	width: 15%;
+	float: left;
+	display: inline-block;
+} .form-dien-thoai label {
+	background: url(../../uploads/2019/08/icon-phone-1.png) left top no-repeat;
+	padding: 0 5px 0 52px;
+	margin: 0px;
+	text-align: left;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	margin-bottom: 11px;
+}
+.cam-ket-section .icon-box{margin-bottom: 25px;}
+.cam-ket-section .icon-box h3{       margin-bottom: 5px;
+	color: #fff000;
+	font-size: 20px;}
+.du-an-section .col{padding-bottom:10px}
+.thu-ngo-section .large-4 .row2 .icon-box .icon-box-text p{color: #874d29;}
+.thu-ngo-section .large-4 .icon-box ul li{font-size:15px}
+.thu-ngo-section .large-4 .icon-box h3{color:#864d29}
+.thu-ngo-section .large-8 .col-inner {background-color: white;
+	padding: 35px;
+	box-shadow: 3px 0px 20px #0000000d;
+	border-bottom-right-radius: 62px !important;
+	background-image: url(/wp-content/uploads/2019/08/bg-paper.png);
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-position-x: right;
+	background-size: 57px;
+	margin-top: -50px; border-radius:6px;
+}
+
+.list-sp .product-small .product-title a:hover{color:#d60000}
+.list-sp .product-small .product-title a{    font-size: 16px;
+	color: #2f2f2f;
+	font-weight: 500;}
+.product-small .box-image:hover::before{
+	-webkit-animation:shine .75s;animation:shine .75s
+}
+@-webkit-keyframes shine{
+	100%{left:125%}
+}
+@keyframes shine{
+	100%{left:125%}
+}
+.product-small .box-image::before{
+	position:absolute;
+	top:0;
+	left:-75%;
+	z-index:2;
+	display:block;
+	content:'';
+	width:50%;
+	height:100%;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	-webkit-transform:skewX(-25deg);transform:skewX(-25deg)
+}
+.hdevvn-show-cats{    width: 730px;
+	overflow: hidden;
+	height: 39px;}
+h1.entry-title.mb {
+	margin-bottom: 0;
+	font-size: 25px;
+	text-transform: none;
+	letter-spacing: 0;
+}.single-product .product-footer .product-tabs li a {padding-bottom:6px;
+	font-size: 20px;
+	color: black;
+	text-transform: none;
+	letter-spacing: 0;
+	font-weight: 500;
+}.thong-tin .des {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 15px;
+}.thong-tin-lien-he .thong-tin .tieu-de {
+
+	color: #000000;
+}.thong-tin-lien-he ul{margin-bottom:0; margin-left:20px; font-size:15px;} .pb-half {padding-top:0;
+	padding-bottom: 10px;
+	text-transform: none;
+	letter-spacing: 0;
+	font-weight: 500;
+	font-size: 20px;
+	color: #d70000;
+}.thong-tin-lien-he {
+	display: inline-block;
+	background: #fff;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	margin-top: 15px;}.thong-tin-lien-he .thong-tin {
+		padding-right: 10px;
+		margin-bottom: 0;
+		width: 50%;
+		float: left;
+		display: inline-block;
+}.thong-tin-lien-he .right {
+	border-radius: 5px;
+	width: 50%;
+	float: right;
+	display: inline-block;
+	background: #fff;
+	padding: 10px;
+	color: #ff5400;
+	font-size: 15px;
+}.thong-tin-lien-he .clearboth {
+	clear: both;
+}.product-section {
+	border-top: 0;
+}
+.related .product-small{padding-bottom:0}
+.related .product-small .product-title a{color:#3e3e3e; font-size:15px; font-weight:500;}.woocommerce #reviews #comments h2 {
+
+	color: #ca0000;
+}#comments a.btn-reviews-now {
+	background-color: #ca0000;}
+div#reviews.woocommerce-Reviews, .devvn_prod_cmt{    max-width: 100%;}
+.single-product .product-footer .product-tabs li.active a{color:#99784f}
+.single-product .product-main .large-5{padding-bottom:0}
+
+.product-info{padding-bottom:0}
+.icon1 h3{    margin-bottom: 0;
+	text-transform: none;
+	font-size: 15px;}
+.icon1{border: 1px solid #efefef;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: whitesmoke;}
+.icon1 .icon-box-text p{font-size:15px}.product-main {
+	padding: 0; padding-top:20px;
+}a.chat-facebook {
+	margin-bottom: 10px;
+	border-radius: 4px !important;
+	background-color: #21569a !important;
+	font-weight: normal;
+	font-size: 15px;
+}a.chat-zalo {
+	border-radius: 4px !important;
+	margin-bottom: 10px;
+	background-color: #00abff !important;
+	font-weight: normal;
+	font-size: 15px;
+}a.mua-si {
+	margin-bottom: 10px;
+	border-radius: 4px !important;
+	font-weight: normal;
+	font-size: 15px;
+	background-color: orange !important;
+}a.mua-le {
+	margin-bottom: 10px;
+	border-radius: 4px !important;
+	background-color: #d70000 !important;
+	font-weight: normal;
+	font-size: 15px;
+	color: #fff000;
+}.contact-button .col {
+	padding-bottom: 0;
+}
+.stuck .header-main{display:none}
+a.back-to-top{background:gray !important; border:none !important; color:white}
+.single-product .large-9{border-right:none !important}
+.single-product #product-sidebar{padding-top:20px; padding-left:0; border-left:none !important}textarea {
+	min-height: 79px;
+}input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea{box-shadow:none; border-radius:4px}
+
+.header-bottom {
+	background-color: #CF0000 !important;
+}
+.header-bottom-nav li>a:hover, .header-bottom-nav li.active>a{
+	background: #a30000 !important;
+	color: #fff000 !important;
+}
+.ss-catagory .section-content .col-inner .box-image {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	padding-top: 100%;
+}
+.ss-catagory .section-content .col-inner .box-image img {
+	position: absolute;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: -1px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.ss-catagory .section-content .col-inner .box-image {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	padding-top: 100%;
+}
+.ss-catagory .section-content .col-inner .box-image img {
+	position: absolute;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: -1px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.ss-catagory .section-content .col-inner .box-text {
+	position: absolute;
+	top: 50%;
+	background: linear-gradient(90deg ,transparent, #fff, transparent);
+	width: 90%;
+	left: 50%;
+	padding: 10px;
+	transform: translate(-50%,-50%);
+}
+.ss-catagory .section-content .col-inner .box-text h4 {
+	text-transform: uppercase;
+}
+.ss-catagory .section-content .col-inner .box-text h4 a {
+	color: #CF0000;
+}
+.san-pham-section .col-inner .section-title.section-title-normal span.hdevvn-show-cats {
+	display: none;
+}
+.san-pham-section .col-inner .section-title.section-title-normal a {
+	display: none;
+}
+.san-pham-section .col-inner .section-title.section-title-normal b {
+	display: none;
+}
+.san-pham-section .col-inner .section-title.section-title-normal span {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 0;
+	border: none;
+	color: #CF0000;
+}
+.san-pham-section .col-inner .flickity-viewport .flickity-slider .col-inner {
+	background: #fff;
+	padding: 10px;
+}
+.san-pham-section .col-inner .flickity-viewport .flickity-slider .col-inner .box-text .title-wrapper .name.product-title {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.san-pham-section .box-text{
+    padding-bottom: 5px;
+}
+.san-pham-section .col-inner .flickity-viewport .flickity-slider .col-inner .box-text .title-wrapper .name.product-title a {
+	color: #000;
+}
+.san-pham-section .col-inner .flickity-viewport .flickity-slider .col-inner .box-text .price-wrapper .price {
+	font-size: 18px;
+	font-weight: 600;
+	color: #f10000;
+} 
+.list-du-an .col-inner .box-text h5.post-title.is-large:hover {
+	color: #cf0000;
+}
+.absolute-footer.dark.medium-text-center.small-text-center {
+	background: #a30000;
+	color: #ffff;
+}
+.loi-keu-goi {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.loi-keu-goi .bg.section-bg {
+	display: none;
+}
+.loi-keu-goi .section-content>.row>.col:nth-child(2):after {content: "";position: absolute;top: 0;right: -100%;width: 100%;height: 100%;background-color: #b90000;}
+.loi-keu-goi .section-content>.row>.col:nth-child(2):before {
+	content: "";
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -21px;
+	width: 70px;
+	height: 100%;
+	background-color: #b90000;
+	-webkit-transform: skewX(-30deg);
+	transform: skewX(-30deg);
+}
+.loi-keu-goi {
+	background: none !important;
+}
+.loi-keu-goi .section-content>.row>.col:nth-child(2) {
+	background: #b90000;
+	position:relative;
+}
+h1.shop-page-title.is-xlarge {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #cf0000;
+}
+.form-dien-thoai strong {
+	color: #fff000;
+}
+.loi-keu-goi .section-content .col-inner h3 span {
+	color: #000;
+}
+.loi-keu-goi .section-content .col-inner p span {
+	color: #000 !important;
+}
+.list-du-an .col-inner .box-text {
+	position: relative !important;
+	margin-top: 0;
+}
+.list-du-an .col-inner .box-text h5.post-title.is-large {
+	color: #000;
+	text-shadow: none;
+}
+.du-an-section .section-content .col-inner span.section-title-main {
+	color: #CF0000 !important;
+	font-size: 30px;
+}
+.san-pham-section .col-inner .flickity-viewport .flickity-slider .col-inner .box-text .title-wrapper .name.product-title a:hover {
+	color: #cf0000;
+}
+.page-inner header.entry-header h1 {
+	padding: 10px 0;
+	margin-bottom: 10px;
+	color: #352F2A;
+	font-family: 'Montserrat', sans-serif !important;
+}
+.post-item .col-inner .box-text .post-title {
+	color: #352F2A;
+}
+.san-pham-section .section-title.section-title-normal:after{
+    content: "";
+    background: url(../../uploads/2020/07/title_bg.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    display: block;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.san-pham-section .col-inner > a.button:hover{
+    color: #F5D700;
+}
+
+
+
+
+
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+@media (max-width: 768px) {
+	.thu-ngo-section .large-12 .col-inner {
+		margin-top: 0px;
+		padding: 15px;
+	}
+	.loi-keu-goi .section-content>.row>.col:nth-child(2):before{
+		display:none;
+	}
+	.loi-keu-goi .section-content>.row>.col:nth-child(2) .col-inner .col.medium-4.small-12.large-4 {
+		max-width: 33.3%;
+		-ms-flex-preferred-size: 33.3%;
+		flex-basis: 33.3%;
+		padding: 0;
+	}
+	.loi-keu-goi .section-content>.row>.col {
+		max-width: 50%;
+		-ms-flex-preferred-size: 50%;
+		flex-basis: 50%;
+	}
+}
+@media (max-width: 768px) {
+	.loi-keu-goi .section-content>.row>.col {
+		max-width: 100%;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
+}
+@media only screen and (max-width: 48em) {
+	body{overflow: hidden;}
+	.w2steam {display: block;border-left: 0;}
+
+	.nav-small.nav>li.html {
+		font-size: 13px;
+		color: #fff !important;
+	}
+	.off-canvas-left.mfp-ready .mfp-content{background-color:#CF0000}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-transform: none;
+		font-size: 15px; color: #fff;
+	}.thu-ngo-section .row2 .large-4 {flex-basis:33.33%; max-width:33.33%; padding: 5px;}.thu-ngo-section .large-4 .row2 .icon-box{background:white; border:none}.thu-ngo-section .large-8 .col-inner{margin-top:0; padding:15px}
+	.loi-keu-goi>.section-content>row>.col {
+		padding-bottom: 10px;
+		text-align: center;
+		max-width: 100%;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
+	.list-sp .col:nth-child(2n+1){padding-right:7px}
+	.list-sp .col:nth-child(2n+2){padding-left:7px}.list-sp .product-small .product-title a{font-size:16px !important}.hdevvn-show-cats{display:none}.du-an-section .col.post-item{flex-basis:50%; max-width:50%}
+	.blog-archive .post-item .post-title{font-size:15px !important}
+	.blog-archive .post-item {padding-bottom:0}
+	.thong-tin-du-an .row-info .right{width:60%}.bai-viet-lien-quan ul li{width:50%}.bai-viet-lien-quan ul li h3{height:60px; font-size:15px; line-height:20px}
+	.thong-tin-tac-gia .left{text-align:center; margin-bottom:20px}
+	.chat-zalo a, .chat-face a, .hotline a{font-size:13px !important}
+	.thong-tin-tac-gia .right, .thong-tin-tac-gia .left{width:100%}.thong-tin-tac-gia h4{font-size:15px}
+	.thong-tin-du-an .row-info .left{width:40%}.bai-viet-lien-quan ul li .box-image img{height:100px; border-radius:0}
+	.thong-tin-du-an .row-info{height:auto; font-size:13px}
+	.blog-archive .post-item .from_the_blog_excerpt {display:none}.blog-archive .dia-chi-du-an{font-size:12px}
+	.du-an-section .post-item:nth-child(2n+1), .blog-archive .post-item:nth-child(2n+1){padding-right:7px}
+	.du-an-section .post-item:nth-child(2n+2), .blog-archive .post-item:nth-child(2n+2){padding-left:7px}
+	.list-du-an .post-item .post-title{font-size:14px; margin-bottom:10px}.list-du-an .post-item .box-text .dia-chi-du-an{display:none}.list-du-an .post-item .box-text{margin-top:0}
+	.ux-logo{margin:0 10px}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li ul{padding-bottom:0; background:#ae0000}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li ul li{border-bottom:1px solid #fff}.icon-angle-down:before {
+		color: #e09465;
+	}
+	.archive .product-small{padding-bottom:5px}
+	.archive .product-small .box-text{padding:10px 0}
+	.single-product .product-footer .product-tabs li a{    padding: 2px 0 !important;
+		border-bottom: 1px solid #dedede;}
+	.archive .product-small .product-title a{font-size:15px}
+	.nav-sidebar.nav-vertical>li+li{    border-top: 1px solid #fff;}
+	.thong-tin-lien-he .thong-tin, .thong-tin-lien-he .right{width:100%}
+	.blog-archive .post-item{flex-basis:50%; max-width:50%}
+	.page-right-sidebar .large-3, .blog-single .large-3, .blog-archive .large-3{padding-left:15px}
+	.widget img{width:100%}
+	.loi-keu-goi .section-content>.row>.col:nth-child(2):after{display: none;}
+}
